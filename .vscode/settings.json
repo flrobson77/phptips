@@ -1,0 +1,6 @@
+{
+    "php.executablePath": "/usr/bin/php",
+    "code-runner.defaultLanguage": "php",
+    "code-runner.runInTerminal": true,
+    "pythonIndent.useTabOnHangingIndent": true
+}

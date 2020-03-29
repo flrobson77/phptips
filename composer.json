@@ -1,0 +1,29 @@
+{
+    "name": "profrobson/phptips001",
+    "description": "Composer | PHP Tips #001",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Robson Lopes",
+            "email": "rferreira@ifsp.edu.br",
+            "role": "Developer",
+            "homepage": "http://www.zeta.br/sysadmin/phptips"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "sysadmin\\phptips\\": "source/"
+        },
+        "files": [
+            "source/config.php"
+        ]
+    },
+    "require": {
+        "PHP": ">=7.0.0",
+        "phpmailer/phpmailer": "6.1.*"
+    }
+}
