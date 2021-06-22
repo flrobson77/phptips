@@ -24,6 +24,6 @@
     },
     "require": {
         "PHP": ">=7.0.0",
-        "phpmailer/phpmailer": "6.1.*"
+        "phpmailer/phpmailer": "6.5.*"
     }
 }
